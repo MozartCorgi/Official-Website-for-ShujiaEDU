@@ -1,0 +1,814 @@
+@charset"utf-8"
+/* menu ------------------------------------------------------*/
+
+.233{
+	/*奇了怪，‘.233’一删除，下方‘.menu’的css就无效。
+	我能怎么办？我也很无奈啊~*/
+}
+.menu{
+	/*background-color: rgba(0,0,0,0.24);*/
+	background-color: #3e3152;
+	height: 64px;
+	position:fixed;
+	left: 0;
+	right: 0;
+	z-index:9999; 
+}
+.menu-page{
+	width: 952px;
+	height: 64px;
+	margin: 0 auto;
+	padding: 0 24px;
+	/*position:fixed;
+	left: 0;
+	right: 0;
+	z-index:9999; 
+*/}
+.menu-page-l{
+	float: left;
+}
+.menu-page-l img{
+	padding-top: 10px;
+}
+
+.menu-page-r ul{
+	margin: 0;
+	padding-right: 0;
+}
+.menu-page-r ul li{
+	float: left;
+	font-size: 14px;
+	line-height: 64px;
+	padding-left: 40px;
+}
+.menu-page-r a{
+	color: #fff;
+}
+.menu-page-r a.link1{
+	background-color: #ffff00;
+	padding: 6px 12px;
+	border-radius: 16px;
+	color: #110F14;
+}
+
+/* home ------------------------------------------------------*/
+#homeBg{
+	background: url(../images/bgHome.png) repeat-x center top;
+	min-width: 1000px;
+	height: 796px;
+	/*background-size: 100%;*/
+}
+.home{
+	min-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.home img{
+	position: relative;
+	margin: 120px auto 0;
+	left: 50%;
+	margin-left: -203px
+}
+.textHome{
+	position: relative;
+	top: -240px;
+	left: 420px;
+	text-align: left;
+	padding: 24px;
+	width: 400px;
+	border-radius: 8px;
+	background: rgba(0,0,0,0.48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textHome p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+}
+
+/* teacher ------------------------------------------------------*/
+.teacher{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	/*background-size: 100%;*/
+}
+.teacherC{
+	height: 680PX;
+}
+.teacherC img{
+	width: 1000px;
+	margin-top: 64px;
+	position: relative;
+	left: 50%;
+	margin-left: -500px;
+	vertical-align:middle；
+}
+.textTeacher{
+	margin: -80px auto 40px;
+	text-align: center;
+	padding: 24px;
+	width: 400px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textTeacher h2{
+	font-size: 24px;
+	font-weight: 200;
+	margin: 14px auto;
+}
+.textTeacher p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+}
+
+/* fourw ------------------------------------------------------*/
+#fourw{
+	background: url(../images/bg4w.png) repeat-x center top;
+	min-width: 1000px;
+}
+.fourwC{
+	height: 720PX;
+	width: 1000px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.fourwC h1{
+	margin: 0;
+	padding: 120px 120px 0;
+	text-align: right;
+	font-weight: 200;
+}
+.fourwC img{
+	margin-top: -40px;
+	position: relative;
+	left: 50%;
+	margin-left: -315px;
+}
+.textFourw1{
+	position: relative;
+	left: 184px;
+	top: -492px;
+	text-align: left;
+	padding: 8px 24px 8px 24px;
+	width: 132px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textFourw2{
+	position: relative;
+	left: 64px;
+	top: -360px;
+	text-align: left;
+	padding: 8px 24px 8px 24px;
+	width: 168px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textFourw3{
+	position: relative;
+	left: 720px;
+	top: -592px;
+	text-align: left;
+	padding: 8px 24px 8px 24px;
+	width: 132px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textFourw4{
+	position: relative;
+	left: 680px;
+	top: -424px;
+	text-align: left;
+	padding: 8px 24px 8px 24px;
+	width: 132px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .48);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .5);  
+}
+.textFourw1,.textFourw2,.textFourw3,.textFourw4 p{
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 200;
+}
+
+/* fourm ------------------------------------------------------*/
+.fourm{
+	background: url(../images/bg4w.png) repeat-x center top;
+	min-width: 1000px;
+}
+.fourmC{
+	height: 796PX;
+	width: 1000px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.fourmC h1{
+	margin: 0;
+	padding: 120px 120px 0;
+	text-align: center;
+	font-weight: 200;
+}
+.fourmP1{
+	position: relative;
+	left: 80px;
+	top: 120px;
+}
+.fourmP2{
+	position: relative;
+	left: 180px;
+	top: 0px;
+}
+.fourmP3{
+	position: relative;
+	left: 280px;
+	top: 120px;
+}
+.fourmPT{
+	position: relative;
+	right: 224PX;
+	top: 320PX;
+}
+.fourmArrow{
+	position: relative;
+	left: 320px;
+	top: -80px;
+}
+.fourmPlus{
+	position: relative;
+	left: 160px;
+	top: 16PX;
+}
+
+/* power ------------------------------------------------------*/
+.power{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	height: 796px;
+}
+.powerC{
+	height: 720PX;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 80px; 
+	/*background: pink;*/
+}
+.powerTitle{
+	margin: 0px auto;
+	text-align: center;
+	padding: 24px;
+	width: 912px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .24);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .24);  
+}
+.powerTitle h1{
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.powerTitle p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	text-align: center;
+	margin: 0;
+}
+.powerC span{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	color: #ffff00;
+}
+.power1{
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1000px;
+	/*background: pink;*/
+}
+.power1 img{
+	float: left;
+}
+.power1Text{
+	float: left;
+	padding-top: 56px;
+	width: 340px;
+	text-align: left;
+}
+.power1Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.power1Text p{
+	padding-top: 16px;
+	width: 340px;
+
+}
+.power3{
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1000px;
+}
+.power3 img{
+	float: right;
+}
+.power3Text{
+	float: right;
+	padding-top: 16px;
+	width: 340px;
+	text-align: left;
+}
+.power3Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.power3Text p{
+	padding-top: 16px;
+	width: 340px;
+
+}
+
+/* expression ------------------------------------------------------*/
+.expression{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	height: 796px;
+}
+.expressionC{
+	height: 760PX;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px; 
+	/*background: pink;*/
+}
+.expressionTitle{
+	margin: 0px auto;
+	text-align: center;
+	padding: 24px;
+	width: 912px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .24);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .24);  
+}
+.expressionTitle h1{
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.expressionTitle p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	text-align: center;
+	margin: 0;
+}
+.expressionC span{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	color: #ffff00;
+}
+.expression1{
+	display: block;
+	margin: 0 auto;
+	padding-top: 24px;
+	width: 1000px;
+	/*background: pink;*/
+}
+.expression1 img{
+	float: left;
+}
+.expression1Text{
+	float: left;
+	padding-top: 56px;
+	width: 340px;
+	text-align: left;
+}
+.expression1Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.expression1Text p{
+	padding-top: 16px;
+	width: 340px;
+	margin: 0 0 40px 0;
+
+}
+.expression2{
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1000px;
+}
+.expression2 img{
+	float: right;
+}
+.expression2Text{
+	float: right;
+	padding-top: 16px;
+	width: 400px;
+	text-align: left;
+}
+.expression2Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.expression2Text p{
+	padding-top: 16px;
+	width: 400px;
+	margin: 0;
+
+}
+
+/* distance ------------------------------------------------------*/
+.distance{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	height: 796px;
+}
+.distanceC{
+	height: 760PX;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px; 
+	/*background: pink;*/
+}
+.distanceTitle{
+	margin: 0px auto;
+	text-align: center;
+	padding: 24px;
+	width: 912px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .24);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .24);  
+}
+.distanceTitle h1{
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.distanceTitle p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	text-align: center;
+	margin: 0;
+}
+.distanceC span{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	color: #ffff00;
+}
+.distance1{
+	display: block;
+	margin: 0 auto;
+	padding-top: 24px;
+	width: 1000px;
+	/*background: pink;*/
+}
+.distance1 img{
+	float: left;
+}
+.distance1Text{
+	float: left;
+	padding-top: 88px;
+	width: 340px;
+	text-align: left;
+}
+.distance1Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.distance1Text p{
+	padding-top: 16px;
+	width: 340px;
+	margin: 0;
+
+}
+.distance2{
+	display: block;
+	margin: 24px auto;
+	width: 1000px;
+}
+.distance2 img{
+	float: right;
+	/*margin-top: -80px;*/
+}
+.distance2Text{
+	float: right;
+	padding-top: 88px;
+	width: 340px;
+	text-align: left;
+}
+.distance2Text img{
+	float: right;
+	/*margin-top: 0;*/
+}
+.distance2Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.distance2Text p{
+	padding-top: 16px;
+	width: 340px;
+	margin: 0;
+
+}
+
+/* teach ------------------------------------------------------*/
+.teach{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	height: 796px;
+}
+.teachC{
+	height: 680PX;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 120px; 
+	/*background: pink;*/
+}
+.teachTitle{
+	margin: 0px auto;
+	text-align: center;
+	padding: 24px;
+	width: 912px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .24);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .24);  
+}
+.teachTitle h1{
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.teachTitle p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	text-align: center;
+	margin: 0;
+}
+.teachC span{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	color: #ffff00;
+}
+.teach1{
+	display: block;
+	margin: 0 auto;
+	padding-top: 80px;
+	width: 1000px;
+	/*background: pink;*/
+}
+.teach1 img{
+	float: left;
+}
+.teach1Text{
+	float: left;
+	padding-top: 16px;
+	width: 340px;
+	text-align: left;
+}
+.teach1Text span{
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+}
+.teach1Text p{
+	padding-top: 16px;
+	width: 340px;
+	margin: 0;
+
+}
+.teach2{
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1000px;
+}
+.teach2 img{
+	position: relative;
+	left: -120px;
+	top: 24px;
+}
+
+/* tech ------------------------------------------------------*/
+#tech{
+	background: url(../images/bgTeacher.png) repeat-x center top;
+	min-width: 1000px;
+	height: 680px;
+}
+.techText{
+	height: 680PX;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 80px; 
+	/*background: pink;*/
+}
+.techText h1{
+	font-weight: 200;
+	margin-left: 524px;
+	margin-bottom: 8px;
+}
+.techText ul{
+	margin-top: -40px;
+}
+.techL{
+	float: left;
+	text-align: right;
+	height: 160px;
+	padding-top: 16px;
+	padding-right: 40px;
+	margin-top: 160px;
+	border-right: 1px solid #F5F558;
+}
+.techC{
+	float: left;
+	margin-left: 88px;
+}
+.techR{
+	float: right;
+	text-align: left;
+	height: 160px;
+	padding-top: 16px;
+	padding-left: 40px;
+	margin-top: 160px;
+	border-left: 1px solid #F5F558;
+}
+
+/* service ------------------------------------------------------*/
+.service{
+	background: url(../images/bgTeacher.png) repeat-x center center;
+	min-width: 1000px;
+	height: 560px;
+}
+.serviceC{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+.form{
+	text-align: left;
+}
+.serviceTitle1{
+	font-size: 32px;
+	font-weight: 200;
+	height: 80px;
+	vertical-align: text-top;
+	/*background: pink;*/
+}
+.serviceTitle2{
+	font-size: 24px;
+	font-weight: 200;
+	height: 64px;
+	vertical-align: text-top;
+	/*background: pink;*/
+}
+.serviceText{
+	font-size: 16px;
+	font-weight: 200;
+	vertical-align: text-top;
+	/*background: pink;*/
+}
+.form1{
+	width: 160px;
+}
+.form2{
+	width: 80px;
+}
+.form3{
+	width: 264px;
+}
+.form3 span{
+	font-size: 24px;
+	font-weight: 200;
+}
+
+/* changer ------------------------------------------------------*/
+.changer{
+	background: url(../images/bgTeacher.png) repeat-x center center;
+	min-width: 1000px;
+	height: 400px;
+}
+.changerC{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.changerC h1{
+	text-align: center;
+	font-weight: 200;
+}
+.changerC span{
+	color: #F5F558;
+}
+.changerL{
+	float: left;
+	text-align: right;
+	margin-left: 160px;
+}
+.changerL h2{
+	font-weight: 200;
+}
+.changerR{
+	float: left;
+	text-align: left;
+	margin-left: 40px;
+	color: #F5F558;
+	font-weight: 200;
+}
+.changerR h2{
+	font-weight: 200;
+}
+
+/* about ------------------------------------------------------*/
+#about{
+	background: url(../images/bgAbout.png) repeat-x center top;
+	min-width: 1000px;
+	height: 1000px;
+}
+.aboutC{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 64px;
+}
+
+.aboutTitle{
+	margin: 0px auto;
+	text-align: center;
+	padding: 24px;
+	width: 912px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .24);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, .24);  
+    box-shadow:0 2 8px rgba(0, 0, 0, .24);  
+}
+.aboutTitle h1{
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.aboutTitle p{
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 200;
+	text-align: left;
+	margin: 0;
+}
+.pic1{
+	width: 1000px;
+	text-align: center;
+	margin-top: 40px;
+}
+.pic2{
+	width: 1000px;
+	text-align: center;
+	margin-top: 0px;
+}
+.aboutMe{
+	position: relative;
+	left: 0;
+	top: -24px;
+}
+.aboutMe h3{
+	margin: 0 0 8px 0;
+}
+.aboutMe p{
+	margin: 0;
+}
