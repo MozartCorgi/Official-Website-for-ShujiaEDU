@@ -90,7 +90,7 @@
 
 /* teacher ------------------------------------------------------*/
 .teacher{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	/*background-size: 100%;*/
 }
@@ -258,7 +258,7 @@
 
 /* power ------------------------------------------------------*/
 .power{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	height: 796px;
 }
@@ -352,7 +352,7 @@
 
 /* expression ------------------------------------------------------*/
 .expression{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	height: 796px;
 }
@@ -448,7 +448,7 @@
 
 /* distance ------------------------------------------------------*/
 .distance{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	height: 796px;
 }
@@ -548,7 +548,7 @@
 
 /* teach ------------------------------------------------------*/
 .teach{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	height: 796px;
 }
@@ -629,7 +629,7 @@
 
 /* tech ------------------------------------------------------*/
 #tech{
-	background: url(../images/bgTeacher.png) repeat-x center top;
+	background: url(../images/bgAbout.png) repeat-x center top;
 	min-width: 1000px;
 	height: 680px;
 }
@@ -673,7 +673,7 @@
 
 /* service ------------------------------------------------------*/
 .service{
-	background: url(../images/bgTeacher.png) repeat-x center center;
+	background: url(../images/bgAbout.png) repeat-x center center;
 	min-width: 1000px;
 	height: 560px;
 }
@@ -721,7 +721,7 @@
 
 /* changer ------------------------------------------------------*/
 .changer{
-	background: url(../images/bgTeacher.png) repeat-x center center;
+	background: url(../images/bgAbout.png) repeat-x center center;
 	min-width: 1000px;
 	height: 400px;
 }
